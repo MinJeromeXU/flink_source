@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.bahir:flink-connector-redis_2.11:1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.1-SNAPSHOT/flink-connector-redis_2.11-1.1-20171205.110058-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.1-SNAPSHOT/flink-connector-redis_2.11-1.1-20171205.110058-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.1-SNAPSHOT/flink-connector-redis_2.11-1.1-20171205.110058-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
