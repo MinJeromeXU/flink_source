@@ -1,0 +1,51 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+flink-stream-state-ttl-test
+
+
+From: 'an unknown organization'
+  - FRocksDB JNI (https://github.com/dataArtisans/frocksdb) com.data-artisans:frocksdbjni:jar:5.17.2-artisans-1.0
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ParaNamer Core (http://paranamer.codehaus.org/paranamer) com.thoughtworks.paranamer:paranamer:bundle:2.7
+    License: BSD  (LICENSE.txt)
+  - XZ for Java (http://tukaani.org/xz/java.html) org.tukaani:xz:jar:1.5
+    License: Public Domain 
+
+From: 'FasterXML' (http://fasterxml.com)
+  - Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-core-asl:jar:1.9.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Data Mapper for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.15
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Avro (http://avro.apache.org) org.apache.avro:avro:bundle:1.8.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.18
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - flink-avro (http://flink.apache.org/flink-formats/flink-avro) org.apache.flink:flink-avro:jar:1.9.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - flink-datastream-allround-test (http://flink.apache.org/flink-end-to-end-tests/flink-datastream-allround-test) org.apache.flink:flink-datastream-allround-test:jar:1.9.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - flink-statebackend-rocksdb (http://flink.apache.org/flink-state-backends/flink-statebackend-rocksdb_2.11) org.apache.flink:flink-statebackend-rocksdb_2.11:jar:1.9.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - force-shading (https://www.apache.org/force-shading/) org.apache.flink:force-shading:jar:1.9.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'xerial.org'
+  - snappy-java (https://github.com/xerial/snappy-java) org.xerial.snappy:snappy-java:bundle:1.1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

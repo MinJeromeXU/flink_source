@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PUBLIC" creationTimestamp="2019-08-24T18:07:53.082+0800" ignoreMissingClasses="false" ignoreMissingClassesByRegularExpressions="" newJar="/Users/xuminsong/Downloads/flink-1.9.0/flink-streaming-java/target/flink-streaming-java_2.11-1.9.0.jar" newVersion="1.9.0" oldJar="/Users/xuminsong/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar" oldVersion="1.8.0" onlyBinaryIncompatibleModifications="false" onlyModifications="true" packagesExclude="@org.apache.flink.annotation.PublicEvolving;@org.apache.flink.annotation.PublicEvolving;@org.apache.flink.annotation.PublicEvolving;@org.apache.flink.annotation.PublicEvolving;@org.apache.flink.annotation.PublicEvolving;@org.apache.flink.annotation.Internal;@org.apache.flink.annotation.Internal;@org.apache.flink.annotation.Internal;@org.apache.flink.annotation.Internal;@org.apache.flink.annotation.Internal;org.apache.flink.streaming.api.datastream.DataStream#DataStream(org.apache.flink.streaming.api.environment.StreamExecutionEnvironment,org.apache.flink.streaming.api.transformations.StreamTransformation);org.apache.flink.streaming.api.environment.LegacyLocalStreamEnvironment;org.apache.flink.streaming.api.environment.LegacyLocalStreamEnvironment;org.apache.flink.streaming.api.functions.sink.RichSinkFunction#invoke(java.lang.Object);org.apache.flink.streaming.api.functions.sink.SinkFunction;org.apache.flink.streaming.api.functions.sink.SinkFunction;org.apache.flink.api.java.hadoop.mapred.HadoopInputFormat;org.apache.flink.api.java.hadoop.mapred.HadoopInputFormat;org.apache.flink.api.java.hadoop.mapred.HadoopOutputFormat;org.apache.flink.api.java.hadoop.mapred.HadoopOutputFormat;org.apache.flink.api.java.hadoop.mapreduce.HadoopInputFormat;org.apache.flink.api.java.hadoop.mapreduce.HadoopInputFormat;org.apache.flink.api.java.hadoop.mapreduce.HadoopOutputFormat;org.apache.flink.api.java.hadoop.mapreduce.HadoopOutputFormat;org.apache.flink.api.scala.hadoop.mapred.HadoopInputFormat;org.apache.flink.api.scala.hadoop.mapred.HadoopInputFormat;org.apache.flink.api.scala.hadoop.mapred.HadoopOutputFormat;org.apache.flink.api.scala.hadoop.mapred.HadoopOutputFormat;org.apache.flink.api.scala.hadoop.mapreduce.HadoopInputFormat;org.apache.flink.api.scala.hadoop.mapreduce.HadoopInputFormat;org.apache.flink.api.scala.hadoop.mapreduce.HadoopOutputFormat;org.apache.flink.api.scala.hadoop.mapreduce.HadoopOutputFormat" packagesInclude="@org.apache.flink.annotation.Public;@org.apache.flink.annotation.Public;@org.apache.flink.annotation.Public;@org.apache.flink.annotation.Public;@org.apache.flink.annotation.Public" semanticVersioning="0.1.0" title="Comparing source compatibility of /Users/xuminsong/Downloads/flink-1.9.0/flink-streaming-java/target/flink-streaming-java_2.11-1.9.0.jar against /Users/xuminsong/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apache.flink.streaming.api.datastream.DataStream" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="NEW" name="DataStream" newLineNumber="125" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="org.apache.flink.streaming.api.environment.StreamExecutionEnvironment"/>
+                        <parameter type="org.apache.flink.api.dag.Transformation"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces/>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apache.flink.streaming.api.environment.CheckpointConfig" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields>
+                <field binaryCompatible="true" changeStatus="NEW" name="UNDEFINED_TOLERABLE_CHECKPOINT_NUMBER" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <type changeStatus="NEW" newValue="int" oldValue="n.a."/>
+                </field>
+            </fields>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="NEW" name="getTolerableCheckpointFailureNumber" newLineNumber="309" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="NEW" newValue="int" oldValue="n.a."/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="isFailOnCheckpointingErrors" newLineNumber="271" oldLineNumber="240" sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="java.lang.Deprecated" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements/>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="setFailOnCheckpointingErrors" newLineNumber="287" oldLineNumber="249" sourceCompatible="true">
+                    <annotations>
+                        <annotation binaryCompatible="true" changeStatus="NEW" fullyQualifiedName="java.lang.Deprecated" sourceCompatible="true">
+                            <compatibilityChanges/>
+                            <elements/>
+                        </annotation>
+                    </annotations>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="boolean"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="NEW" name="setTolerableCheckpointFailureNumber" newLineNumber="320" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="int"/>
+                    </parameters>
+                    <returnType changeStatus="NEW" newValue="void" oldValue="n.a."/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="-2713179533139216452" serialVersionUidDefaultOld="-4761528075068160113" serialVersionUidInClassNew="-750378776078908147" serialVersionUidInClassOld="-750378776078908147" serializableNew="true" serializableOld="true"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apache.flink.streaming.api.environment.LocalStreamEnvironment" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="REMOVED" name="execute" newLineNumber="n.a." oldLineNumber="89" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="REMOVED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                    <returnType changeStatus="REMOVED" newValue="n.a." oldValue="org.apache.flink.api.common.JobExecutionResult"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="NEW" name="execute" newLineNumber="86" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="NEW" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="org.apache.flink.streaming.api.graph.StreamGraph"/>
+                    </parameters>
+                    <returnType changeStatus="NEW" newValue="org.apache.flink.api.common.JobExecutionResult" oldValue="n.a."/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="org.apache.flink.streaming.api.environment.StreamExecutionEnvironment" superclassOld="org.apache.flink.streaming.api.environment.StreamExecutionEnvironment">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apache.flink.streaming.api.environment.RemoteStreamEnvironment" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="REMOVED" name="execute" newLineNumber="n.a." oldLineNumber="307" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="REMOVED" name="org.apache.flink.client.program.ProgramInvocationException"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_FINAL"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_STATIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="PUBLIC"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="REMOVED" newValue="n.a." oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                    <returnType changeStatus="REMOVED" newValue="n.a." oldValue="org.apache.flink.api.common.JobExecutionResult"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="NEW" name="execute" newLineNumber="306" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="NEW" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="NEW" newValue="NON_FINAL" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_STATIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="PUBLIC" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_ABSTRACT" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_BRIDGE" oldValue="n.a."/>
+                        <modifier changeStatus="NEW" newValue="NON_SYNTHETIC" oldValue="n.a."/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="org.apache.flink.streaming.api.graph.StreamGraph"/>
+                    </parameters>
+                    <returnType changeStatus="NEW" newValue="org.apache.flink.api.common.JobExecutionResult" oldValue="n.a."/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="org.apache.flink.streaming.api.environment.StreamExecutionEnvironment" superclassOld="org.apache.flink.streaming.api.environment.StreamExecutionEnvironment">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="MODIFIED" fullyQualifiedName="org.apache.flink.streaming.api.environment.StreamExecutionEnvironment" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="UNCHANGED" majorVersionNew="52" majorVersionOld="52" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors/>
+            <fields/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="MODIFIED" name="execute" newLineNumber="1505" oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="MODIFIED" newValue="NON_ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="org.apache.flink.api.common.JobExecutionResult" oldValue="org.apache.flink.api.common.JobExecutionResult"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

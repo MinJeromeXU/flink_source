@@ -1,0 +1,29 @@
+Comparing source compatibility of /Users/xuminsong/Downloads/flink-1.9.0/flink-streaming-java/target/flink-streaming-java_2.11-1.9.0.jar against /Users/xuminsong/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar
+***  MODIFIED CLASS: PUBLIC org.apache.flink.streaming.api.datastream.DataStream  (not serializable)
+	===  CLASS FILE FORMAT VERSION: 52.0 <- 52.0
+	+++  NEW CONSTRUCTOR: PUBLIC(+) DataStream(org.apache.flink.streaming.api.environment.StreamExecutionEnvironment, org.apache.flink.api.dag.Transformation)
+***  MODIFIED CLASS: PUBLIC org.apache.flink.streaming.api.environment.CheckpointConfig  (compatible)
+	===  CLASS FILE FORMAT VERSION: 52.0 <- 52.0
+	+++  NEW FIELD: PUBLIC(+) STATIC(+) FINAL(+) int UNDEFINED_TOLERABLE_CHECKPOINT_NUMBER
+	+++  NEW METHOD: PUBLIC(+) int getTolerableCheckpointFailureNumber()
+	===  UNCHANGED METHOD: PUBLIC boolean isFailOnCheckpointingErrors()
+		+++  NEW ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC void setFailOnCheckpointingErrors(boolean)
+		+++  NEW ANNOTATION: java.lang.Deprecated
+	+++  NEW METHOD: PUBLIC(+) void setTolerableCheckpointFailureNumber(int)
+***  MODIFIED CLASS: PUBLIC org.apache.flink.streaming.api.environment.LocalStreamEnvironment  (not serializable)
+	===  CLASS FILE FORMAT VERSION: 52.0 <- 52.0
+	---  REMOVED METHOD: PUBLIC(-) org.apache.flink.api.common.JobExecutionResult execute(java.lang.String)
+		---  REMOVED EXCEPTION: java.lang.Exception
+	+++  NEW METHOD: PUBLIC(+) org.apache.flink.api.common.JobExecutionResult execute(org.apache.flink.streaming.api.graph.StreamGraph)
+		+++  NEW EXCEPTION: java.lang.Exception
+***  MODIFIED CLASS: PUBLIC org.apache.flink.streaming.api.environment.RemoteStreamEnvironment  (not serializable)
+	===  CLASS FILE FORMAT VERSION: 52.0 <- 52.0
+	---  REMOVED METHOD: PUBLIC(-) org.apache.flink.api.common.JobExecutionResult execute(java.lang.String)
+		---  REMOVED EXCEPTION: org.apache.flink.client.program.ProgramInvocationException
+	+++  NEW METHOD: PUBLIC(+) org.apache.flink.api.common.JobExecutionResult execute(org.apache.flink.streaming.api.graph.StreamGraph)
+		+++  NEW EXCEPTION: java.lang.Exception
+***  MODIFIED CLASS: PUBLIC ABSTRACT org.apache.flink.streaming.api.environment.StreamExecutionEnvironment  (not serializable)
+	===  CLASS FILE FORMAT VERSION: 52.0 <- 52.0
+	***  MODIFIED METHOD: PUBLIC NON_ABSTRACT (<- ABSTRACT) org.apache.flink.api.common.JobExecutionResult execute(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.lang.Exception

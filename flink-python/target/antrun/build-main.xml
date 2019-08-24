@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete>
+    <fileset includes="**/*.pyc" dir="/Users/xuminsong/Downloads/flink-1.9.0/flink-python/pyflink"/>
+  </delete>
+  <delete file="/Users/xuminsong/Downloads/flink-1.9.0/flink-python/lib/pyflink.zip"/>
+  <zip destfile="/Users/xuminsong/Downloads/flink-1.9.0/flink-python/lib/pyflink.zip">
+    <fileset includes="pyflink/**/*" dir="/Users/xuminsong/Downloads/flink-1.9.0/flink-python"/>
+  </zip>
+</target>
+</project>
