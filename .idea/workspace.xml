@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f759ca-f765-4418-b084-4d3b313a1dc6" name="Default Changelist" comment="" />
+    <list default="true" id="42f759ca-f765-4418-b084-4d3b313a1dc6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/flink-quickstart/target/" />
     <ignored path="$PROJECT_DIR$/flink-table/flink-table-uber-blink/target/" />
@@ -264,8 +266,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="23" />
+    <option name="x" value="348" />
+    <option name="y" value="309" />
     <option name="width" value="1489" />
     <option name="height" value="944" />
   </component>
@@ -291,6 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
@@ -386,15 +389,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566638680367</updated>
-      <workItem from="1566638683398" duration="4987000" />
+      <workItem from="1566638683398" duration="5611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4987000" />
+    <option name="totallyTimeSpent" value="5611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="23" width="1489" height="944" extended-state="0" />
+    <frame x="101" y="23" width="1489" height="944" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />

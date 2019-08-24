@@ -160,6 +160,7 @@
       <module fileurl="file://$PROJECT_DIR$/flink-yarn-tests/flink-yarn-tests.iml" filepath="$PROJECT_DIR$/flink-yarn-tests/flink-yarn-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-yarn/flink-yarn_2.11.iml" filepath="$PROJECT_DIR$/flink-yarn/flink-yarn_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/tools/force-shading/force-shading.iml" filepath="$PROJECT_DIR$/tools/force-shading/force-shading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jerome-xms/jeromexms.iml" filepath="$PROJECT_DIR$/jerome-xms/jeromexms.iml" />
     </modules>
   </component>
 </project>

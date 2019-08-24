@@ -158,6 +158,7 @@
     <file url="file://$PROJECT_DIR$/flink-tests" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-yarn" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-yarn-tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jerome-xms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tools/force-shading" charset="UTF-8" />
   </component>
 </project>

@@ -37,6 +37,7 @@
         <module name="flink-confluent-schema-registry" />
         <module name="flink-quickstart-test" />
         <module name="flink-cep_2.11" />
+        <module name="jeromexms" />
         <module name="flink-stream-stateful-job-upgrade-test" />
         <module name="flink-annotations" />
         <module name="flink-stream-state-ttl-test" />
@@ -313,6 +314,7 @@
       <module name="flink-yarn-tests" target="1.8" />
       <module name="flink-yarn_2.11" target="1.8" />
       <module name="force-shading" target="1.6" />
+      <module name="jeromexms" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -458,6 +460,7 @@
       <module name="flink-tpch-test" options="-Xpkginfo:always" />
       <module name="flink-yarn-tests" options="-Xpkginfo:always" />
       <module name="flink-yarn_2.11" options="-Xpkginfo:always" />
+      <module name="jeromexms" options="-Xpkginfo:always" />
     </option>
   </component>
 </project>
